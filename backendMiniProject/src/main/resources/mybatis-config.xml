@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+   <mappers>
+      <!-- 계좌 기능 관련 SQL문이 있는 account.xml을 읽어들인다. -->
+      <mapper resource="mybatis/mappers/member.xml"/>
+      <mapper resource="mybatis/mappers/user.xml"/>
+   </mappers>
+</configuration>
